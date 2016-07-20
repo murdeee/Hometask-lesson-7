@@ -7,7 +7,15 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Fish.h"
+#import "Kangaroo.h"
+#import "Leopard.h"
+#import "Jumper.h"
+#import "Swimmer.h"
+#import "Runner.h"
+#import "Jumpers.h"
+#import "Swimmers.h"
+#import "LazyBoy.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +25,96 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Fish * Nemo = [[Fish alloc]init];
+    Kangaroo * Jack = [[Kangaroo alloc]init];
+    Leopard * Kitty = [[Leopard alloc]init];
+    LazyBoy * Ivan = [[LazyBoy alloc] init];
+    Jumper * Vova = [[Jumper alloc] init];
+    Swimmer * Vlad = [[Swimmer alloc]init];
+    Runner * Sasha = [[Runner alloc] init];
+
+    
+    Nemo.name = @"Nemo";
+    Nemo.speed = 5;
+    
+    Jack.name = @"Jack";
+    Jack.speed = 30;
+    
+    Kitty.name = @"Kitty";
+    Kitty.speed = 50;
+
+    Vova.name = @"Vova";
+    Vova.speed = 10;
+    
+    Vlad.name = @"Vlad";
+    Vlad.speed = 15;
+    
+    Sasha.name = @"Sasha";
+    Sasha.speed = 20;
+    
+    Ivan.name= @"Ivan";
+    Ivan.speed = 0;
+
+    NSArray * allInOneArray = [NSArray arrayWithObjects:Nemo, Jack, Kitty, Vova, Vlad, Sasha, nil];
+    for (id all in allInOneArray) {
+        if ([all conformsToProtocol:@protocol(Jumpers) ]) {
+            id <Jumpers> jumpers = all;
+            NSLog(@"My name is %@, and my speed is %d", [jumpers name], [jumpers speed]);
+            if ([jumpers start]) {
+                [jumpers jump];
+                while (![jumpers didYouFinish]) {
+                    NSLog(@"ohhhh... again");
+                    [jumpers jump];
+                };
+                NSLog(@"Now when we finish we can say:");
+                if ([jumpers respondsToSelector:@selector(speak)])
+                {
+                    [jumpers speak];
+                }
+            }
+        }
+        else if ([all conformsToProtocol:@protocol(Swimmers)])
+        {
+            id <Swimmers> swimmers = all;
+            NSLog(@"My name is %@, and my speed is %d", [swimmers name], [swimmers speed]);
+            if ([swimmers start]) {
+                [swimmers swim];
+                while (![swimmers didYouFinish]) {
+                    NSLog(@"ohhhh... again");
+                    [swimmers swim];
+                };
+                NSLog(@"Now when we finish we can say:");
+                if ([swimmers respondsToSelector:@selector(speak)])
+                {
+                    [swimmers speak];
+                }
+            }
+        }
+        else if ([all conformsToProtocol:@protocol(Runners)])
+        {
+            id <Runners> runners = all;
+            NSLog(@"My name is %@, and my speed is %d", [runners name], [runners speed]);
+            if ([runners start]) {
+                [runners run];
+                while (![runners didYouFinish]) {
+                    NSLog(@"ohhhh... again");
+                    [runners run];
+                };
+                NSLog(@"Now when we finish we can say:");
+                if ([runners respondsToSelector:@selector(speak)])
+                {
+                    [runners speak];
+                }
+            }
+        }
+        else
+        {
+            NSLog(@"My name is %@ and i'm a LOAFER!!!! Because i'm doing nothing", [all name]);
+        }
+    }
+
+
     return YES;
 }
 

@@ -15,6 +15,13 @@
 		49F5A6C71D36524D00DB4D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F5A6C51D36524D00DB4D01 /* LaunchScreen.storyboard */; };
 		49F5A6D21D36524D00DB4D01 /* Hometask_lesson_7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A6D11D36524D00DB4D01 /* Hometask_lesson_7Tests.m */; };
 		49F5A6DD1D36524D00DB4D01 /* Hometask_lesson_7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A6DC1D36524D00DB4D01 /* Hometask_lesson_7UITests.m */; };
+		49F5A6F61D36537600DB4D01 /* Jumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A6F51D36537600DB4D01 /* Jumper.m */; };
+		49F5A6F91D3653E000DB4D01 /* Kangaroo.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A6F81D3653E000DB4D01 /* Kangaroo.m */; };
+		49F5A6FC1D3653FE00DB4D01 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A6FB1D3653FE00DB4D01 /* Fish.m */; };
+		49F5A6FF1D36540F00DB4D01 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A6FE1D36540F00DB4D01 /* Swimmer.m */; };
+		49F5A7021D36542600DB4D01 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A7011D36542600DB4D01 /* Runner.m */; };
+		49F5A7051D36544C00DB4D01 /* Leopard.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A7041D36544C00DB4D01 /* Leopard.m */; };
+		49F5A7151D36880400DB4D01 /* LazyBoy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A7141D36880400DB4D01 /* LazyBoy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,23 @@
 		49F5A6D81D36524D00DB4D01 /* Hometask lesson 7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hometask lesson 7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F5A6DC1D36524D00DB4D01 /* Hometask_lesson_7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hometask_lesson_7UITests.m; sourceTree = "<group>"; };
 		49F5A6DE1D36524D00DB4D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F5A6EB1D3652D000DB4D01 /* Jumpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jumpers.h; sourceTree = "<group>"; };
+		49F5A6EE1D3652E200DB4D01 /* Swimmers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmers.h; sourceTree = "<group>"; };
+		49F5A6F11D3652F200DB4D01 /* Runners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runners.h; sourceTree = "<group>"; };
+		49F5A6F41D36537600DB4D01 /* Jumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jumper.h; sourceTree = "<group>"; };
+		49F5A6F51D36537600DB4D01 /* Jumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jumper.m; sourceTree = "<group>"; };
+		49F5A6F71D3653E000DB4D01 /* Kangaroo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kangaroo.h; sourceTree = "<group>"; };
+		49F5A6F81D3653E000DB4D01 /* Kangaroo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kangaroo.m; sourceTree = "<group>"; };
+		49F5A6FA1D3653FE00DB4D01 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		49F5A6FB1D3653FE00DB4D01 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		49F5A6FD1D36540F00DB4D01 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		49F5A6FE1D36540F00DB4D01 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
+		49F5A7001D36542600DB4D01 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		49F5A7011D36542600DB4D01 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		49F5A7031D36544C00DB4D01 /* Leopard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leopard.h; sourceTree = "<group>"; };
+		49F5A7041D36544C00DB4D01 /* Leopard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leopard.m; sourceTree = "<group>"; };
+		49F5A7131D36880400DB4D01 /* LazyBoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyBoy.h; sourceTree = "<group>"; };
+		49F5A7141D36880400DB4D01 /* LazyBoy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyBoy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,9 @@
 		49F5A6B61D36524D00DB4D01 /* Hometask lesson 7 */ = {
 			isa = PBXGroup;
 			children = (
+				49F5A70F1D36564300DB4D01 /* Protocols */,
+				49F5A7071D36548500DB4D01 /* Animals */,
+				49F5A7061D36547500DB4D01 /* People */,
 				49F5A6BA1D36524D00DB4D01 /* AppDelegate.h */,
 				49F5A6BB1D36524D00DB4D01 /* AppDelegate.m */,
 				49F5A6BD1D36524D00DB4D01 /* ViewController.h */,
@@ -138,6 +165,44 @@
 				49F5A6DE1D36524D00DB4D01 /* Info.plist */,
 			);
 			path = "Hometask lesson 7UITests";
+			sourceTree = "<group>";
+		};
+		49F5A7061D36547500DB4D01 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				49F5A6F41D36537600DB4D01 /* Jumper.h */,
+				49F5A6F51D36537600DB4D01 /* Jumper.m */,
+				49F5A6FD1D36540F00DB4D01 /* Swimmer.h */,
+				49F5A6FE1D36540F00DB4D01 /* Swimmer.m */,
+				49F5A7001D36542600DB4D01 /* Runner.h */,
+				49F5A7011D36542600DB4D01 /* Runner.m */,
+				49F5A7131D36880400DB4D01 /* LazyBoy.h */,
+				49F5A7141D36880400DB4D01 /* LazyBoy.m */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		49F5A7071D36548500DB4D01 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				49F5A6FA1D3653FE00DB4D01 /* Fish.h */,
+				49F5A6FB1D3653FE00DB4D01 /* Fish.m */,
+				49F5A6F71D3653E000DB4D01 /* Kangaroo.h */,
+				49F5A6F81D3653E000DB4D01 /* Kangaroo.m */,
+				49F5A7031D36544C00DB4D01 /* Leopard.h */,
+				49F5A7041D36544C00DB4D01 /* Leopard.m */,
+			);
+			name = Animals;
+			sourceTree = "<group>";
+		};
+		49F5A70F1D36564300DB4D01 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				49F5A6EB1D3652D000DB4D01 /* Jumpers.h */,
+				49F5A6EE1D3652E200DB4D01 /* Swimmers.h */,
+				49F5A6F11D3652F200DB4D01 /* Runners.h */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F5A7051D36544C00DB4D01 /* Leopard.m in Sources */,
+				49F5A6F91D3653E000DB4D01 /* Kangaroo.m in Sources */,
 				49F5A6BF1D36524D00DB4D01 /* ViewController.m in Sources */,
 				49F5A6BC1D36524D00DB4D01 /* AppDelegate.m in Sources */,
+				49F5A7151D36880400DB4D01 /* LazyBoy.m in Sources */,
+				49F5A6FC1D3653FE00DB4D01 /* Fish.m in Sources */,
+				49F5A6F61D36537600DB4D01 /* Jumper.m in Sources */,
+				49F5A7021D36542600DB4D01 /* Runner.m in Sources */,
 				49F5A6B91D36524D00DB4D01 /* main.m in Sources */,
+				49F5A6FF1D36540F00DB4D01 /* Swimmer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
